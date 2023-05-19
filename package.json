@@ -5,10 +5,10 @@
   "main": "index.js",
   "keywords": [
     "react-native",
-    "react-native-resize",
+    "react-native-sizer",
     "react-native-responsive",
-    "react-native-responsive-resize",
-    "react-native-responsive-resizer"
+    "react-native-responsive-sizer",
+    "react-native-responsive-sizer"
   ],
   "author": "yubineric@gmail.com",
   "license": "ISC",
