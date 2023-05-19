@@ -1,0 +1,19 @@
+{
+  "name": "react-native-responsive-sizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "react-native-resize",
+    "react-native-responsive",
+    "react-native-responsive-resize",
+    "react-native-responsive-resizer"
+  ],
+  "author": "yubineric@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "2.8.4",
+    "react-native": "^0.71.8"
+  }
+}
