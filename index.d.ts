@@ -1,6 +1,5 @@
-interface ResizeInterface {
-  type: "wh" | "ww" | "sh" | "sw";
-}
+type ResizeInterface = "wh" | "ww" | "sh" | "sw";
+
 interface ReturnFunction {
   (num: number): number;
 }
