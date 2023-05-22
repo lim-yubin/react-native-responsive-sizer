@@ -29,20 +29,20 @@ This number is the design value.
 ```javascript
 import { resize } from "react-native-responsive-sizer";
 
-/*When you want to convert the design height of 800px 
-including the status bar and soft menu bar to fit the device.*/
+/*When the height of the outermost layout of the design not including
+ the status bar and soft bar menu is 800px.*/
 const wh = resize("wh", 800);
 
-/*When you want to convert the design width of 300px 
-including the status bar and soft menu bar to fit the device.*/
+/*When the width of the outermost layout of the design not including
+ the status bar and soft bar menu is 300px.*/
 const ww = resize("ww", 300);
 
-/*When you want to convert the height of 800px of the design 
-that does not include the status bar and soft menu bar to fit the device.*/
+/*When the height of the outermost layout of the design including
+ the status bar and soft bar menu is 800px.*/
 const sh = resize("sh", 800);
 
-/*When you want to convert the height of 300px of the design 
-that does not include the status bar and soft menu bar to fit the device.*/
+/*When the width of the outermost layout of the design including
+ the status bar and soft bar menu is 300px.*/
 const sw = resize("sw", 300);
 
 export default function Homescreen() {
