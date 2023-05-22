@@ -16,11 +16,12 @@ If not, you can get it with Dimensions.get("window").
 
 The function has two parameters.
 The first parameter can only be `wh,ww,sh,sw`.
-_`wh = window height,
+
+`wh = window height,
 ww = window width,
 sh = screen height,
 sw = screen width`
-_
+
 The second argument is a number.
 This number is the design value.
 
