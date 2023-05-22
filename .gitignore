@@ -1,2 +1,4 @@
 node_modules
 .prettierrc
+.package-lock.json
+package-lock.json

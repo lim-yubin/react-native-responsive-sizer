@@ -1,6 +1,6 @@
 {
   "name": "react-native-responsive-sizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "keywords": [
@@ -10,10 +10,17 @@
     "react-native-responsive-sizer",
     "react-native-responsive-sizer"
   ],
-  "author": "yubineric@gmail.com",
+  "author": {
+    "name": "Yubin-Lim",
+    "email": "yubineric@gmail.com"
+  },
+  "contributors": [
+    "https://github.com/smellycat0503"
+  ],
+  "homepage": "https://github.com/lim-yubin/react-native-responsive-sizer",
+  "repository": "https://github.com/lim-yubin/react-native-responsive-sizer",
   "license": "ISC",
   "dependencies": {
-    "prettier": "2.8.4",
     "react-native": "^0.71.8"
   }
 }
