@@ -2,7 +2,7 @@ import { Dimensions } from "react-native";
 
 /*
 windowHeight => The height without status bar and soft bar menu. 
-screenHeight => The entire screen height of divce(include status bar and soft bar menu). 
+screenHeight => The entire screen height of device(include status bar and soft bar menu). 
  */
 
 let windowHeight = Dimensions.get("window").height;
@@ -12,17 +12,17 @@ let screenWidth = Dimensions.get("screen").width;
 
 const resize = (type, basis) => {
   const resizedHeightByWindow = (h) => {
-    return (windowHeight * h) / basis;
+    return Math.floor((windowHeight * h) / basis);
   };
   const resizedWidthByWindow = (w) => {
-    return (windowWidth * w) / basis;
+    return Math.floor((windowWidth * w) / basis);
   };
 
   const resizedHeightByScreen = (h) => {
-    return (screenHeight * h) / basis;
+    return Math.floor((screenHeight * h) / basis);
   };
   const resizedWidthByScreen = (w) => {
-    return (screenWidth * w) / basis;
+    return Math.floor((screenWidth * w) / basis);
   };
   if (type === "wh") {
     return resizedHeightByWindow;

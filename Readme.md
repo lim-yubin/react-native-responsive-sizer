@@ -30,20 +30,16 @@ This number is the design value.
 ```javascript
 import { resize } from "react-native-responsive-sizer";
 
-/*When the height of the outermost layout of the design not including
- the status bar and soft bar menu is 800px.*/
+/*If your app UI design does not include a status bar and a soft menu bar, and the height is 800px.*/
 const wh = resize("wh", 800);
 
-/*When the width of the outermost layout of the design not including
- the status bar and soft bar menu is 300px.*/
+/*If your app UI design does not include a status bar and a soft menu bar, and the width is 300px.*/
 const ww = resize("ww", 300);
 
-/*When the height of the outermost layout of the design including
- the status bar and soft bar menu is 800px.*/
+/*If your app UI design includes a status bar and a soft menu bar, and the height is 800px.*/
 const sh = resize("sh", 800);
 
-/*When the width of the outermost layout of the design including
- the status bar and soft bar menu is 300px.*/
+/*If your app UI design includes a status bar and a soft menu bar, and the width is 300px.*/
 const sw = resize("sw", 300);
 
 export default function Homescreen() {
@@ -58,11 +54,11 @@ export default function Homescreen() {
 
 const styles = StyleSheet.create({
   container: {
-    width: ww(200),
-    height: wh(900),
+    width: ww(200), //Converting 200px to match your device's ratio.
+    height: wh(900), //Converting 900px to match your device's ratio.
   },
   text: {
-    fontSize: ww(16),
+    fontSize: ww(16), //Converting 16px to match your device's ratio.
   },
 });
 ```
